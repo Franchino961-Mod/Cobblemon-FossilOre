@@ -1,69 +1,72 @@
 # Cobblemon Fossil Ore
 
-Una mod addon per Cobblemon che aggiunge minerali di fossili al mondo di Minecraft, offrendo un nuovo modo per ottenere i fossili necessari per riportare in vita i Pokémon preistorici!
+A Cobblemon addon mod that adds fossil ores to the Minecraft world, providing a new way to obtain the fossils needed to revive prehistoric Pokémon!
 
-## 📋 Descrizione
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
 
-Questa mod aggiunge due nuovi blocchi minerali all'Overworld:
-- **Fossil Ore** - Un minerale trovato in aree normali
-- **Deepslate Fossil Ore** - La variante deepslate del minerale
+## 📋 Description
 
-Quando minati, questi blocchi droppano casualmente uno dei 15 fossili della Cobblemon, offrendo un metodo alternativo per ottenerli senza dover cercare nelle strutture naturali o fare affidamento solo sui metodi tradizionali.
+This mod adds two new ore blocks to the Overworld:
+- **Fossil Ore** - An ore found in normal stone areas
+- **Deepslate Fossil Ore** - The deepslate variant of the ore
 
-## ⚙️ Requisiti
+When mined, these blocks randomly drop one of the 15 Cobblemon fossils, offering an alternative method to obtain them without having to search in natural structures or rely solely on traditional methods.
+
+## ⚙️ Requirements
 
 - **Minecraft**: 1.21.1
-- **Fabric Loader**: 0.16.9 o superiore
-- **Fabric API**: 0.108.0 o superiore
-- **Cobblemon**: 1.6.0 o superiore
+- **Fabric Loader**: 0.16.9 or higher
+- **Fabric API**: 0.108.0 or higher
+- **Cobblemon**: 1.6.0 or higher
 
-## 📦 Installazione
+## 📦 Installation
 
-1. Assicurati di avere installato Fabric Loader, Fabric API e Cobblemon
-2. Scarica il file `.jar` della mod
-3. Posiziona il file nella cartella `mods` della tua installazione di Minecraft
-4. Avvia il gioco!
+1. Make sure you have Fabric Loader, Fabric API, and Cobblemon installed
+2. Download the mod `.jar` file
+3. Place the file in your Minecraft installation's `mods` folder
+4. Launch the game!
 
-## 🔍 Come Trovare i Fossil Ore
+## 🔍 How to Find Fossil Ores
 
-### Generazione nel Mondo
+### World Generation
 
-I Fossil Ore si generano naturalmente nell'Overworld con le seguenti caratteristiche:
+Fossil Ores naturally generate in the Overworld with the following characteristics:
 
-- **Altezza (Y Level)**: da Y -64 fino a Y 100
-- **Concentrazione massima**: circa Y 18 (livello ottimale per la ricerca)
-- **Dimensione vene**: fino a 3 blocchi per vena
-- **Biomi**: tutti i biomi dell'Overworld
+- **Height (Y Level)**: from Y -64 to Y 100
+- **Maximum concentration**: around Y 18 (optimal level for searching)
+- **Vein size**: up to 3 blocks per vein
+- **Biomes**: all Overworld biomes
 
-### Migliore Strategia di Mining
+### Best Mining Strategy
 
-1. Scava a **livello Y 18** per la massima concentrazione
-2. Cerca in aree con gravel o deepslate
-3. Usa una **pickaxe** (piccone) di legno o superiore
+1. Mine at **Y level 18** for maximum concentration
+2. Look in areas with gravel or deepslate
+3. Use a **pickaxe** of wood tier or higher
 
-**⚠️ Importante**: I minerali si generano solo in chunk nuovi! Se stai giocando in un mondo esistente, dovrai esplorare nuove aree o creare un nuovo mondo.
+**⚠️ Important**: The ores only generate in new chunks! If you're playing in an existing world, you'll need to explore new areas or create a new world.
 
-## ⛏️ Meccaniche di Mining
+## ⛏️ Mining Mechanics
 
-### Drop Base
-- **Piccone richiesto**: Legno o superiore
-- **Drop senza incantesimi**: 1 fossile casuale
+### Base Drop
+- **Required pickaxe**: Wood or higher
+- **Drop without enchantments**: 1 random fossil
 
-### Fortune (Fortuna)
-L'incantesimo Fortune aumenta le possibilità di ottenere fossili extra:
-- **Fortune I**: ~33% di possibilità di ottenere 2 fossili
-- **Fortune II**: ~66% di possibilità di ottenere 2 fossili
-- **Fortune III**: ~99% di possibilità di ottenere 2 fossili
-- **Massimo**: 2 fossili per blocco
+### Fortune
+The Fortune enchantment increases the chance of getting extra fossils:
+- **Fortune I**: ~33% chance to get 2 fossils
+- **Fortune II**: ~66% chance to get 2 fossils
+- **Fortune III**: ~99% chance to get 2 fossils
+- **Maximum**: 2 fossils per block
 
-Ogni fossile è scelto indipendentemente e casualmente, quindi potresti ottenere due fossili diversi dallo stesso blocco!
+Each fossil is chosen independently and randomly, so you might get two different fossils from the same block!
 
-### Silk Touch (Tocco di Velluto)
-Se usi un piccone con Silk Touch, otterrai il blocco Fossil Ore stesso invece dei fossili, permettendoti di spostarlo o collezionarlo.
+### Silk Touch
+If you use a pickaxe with Silk Touch, you'll get the Fossil Ore block itself instead of fossils, allowing you to move or collect it.
 
-## 🦴 Fossili Disponibili
+## 🦴 Available Fossils
 
-Quando mini un Fossil Ore, puoi ottenere casualmente uno di questi 15 fossili Cobblemon:
+When you mine a Fossil Ore, you can randomly obtain one of these 15 Cobblemon fossils:
 
 - **Armor Fossil** (Shieldon)
 - **Claw Fossil** (Anorith)
@@ -81,41 +84,41 @@ Quando mini un Fossil Ore, puoi ottenere casualmente uno di questi 15 fossili Co
 - **Sail Fossil** (Amaura)
 - **Skull Fossil** (Cranidos)
 
-Una volta ottenuti, puoi usare i fossili esattamente come nella Cobblemon standard per riportare in vita i Pokémon preistorici!
+Once obtained, you can use the fossils exactly as in standard Cobblemon to revive prehistoric Pokémon!
 
-## 🎮 Compatibilità
+## 🎮 Compatibility
 
-Questa mod è progettata per integrarsi perfettamente con Cobblemon **senza modificare** il sistema di fossili esistente. Aggiunge semplicemente un nuovo metodo per ottenerli, mantenendo intatti tutti i metodi originali.
+This mod is designed to integrate seamlessly with Cobblemon **without modifying** the existing fossil system. It simply adds a new method to obtain them, keeping all original methods intact.
 
 ## ❓ FAQ
 
-**Q: I fossili che ottengo sono uguali a quelli normali di Cobblemon?**  
-A: Sì! Sono esattamente gli stessi item e funzionano allo stesso modo.
+**Q: Are the fossils I get the same as normal Cobblemon ones?**  
+A: Yes! They are exactly the same items and work the same way.
 
-**Q: Posso trovare i Fossil Ore nel mio mondo esistente?**  
-A: Sì, ma solo in chunk che non sono ancora stati generati. Dovrai esplorare nuove aree.
+**Q: Can I find Fossil Ores in my existing world?**  
+A: Yes, but only in chunks that haven't been generated yet. You'll need to explore new areas.
 
-**Q: Posso usare questa mod con altre mod oltre a Cobblemon?**  
-A: Sì, la mod dovrebbe essere compatibile con altre mod Fabric, purché non modifichino pesantemente il sistema di generazione del mondo.
+**Q: Can I use this mod with other mods besides Cobblemon?**  
+A: Yes, the mod should be compatible with other Fabric mods, as long as they don't heavily modify the world generation system.
 
-**Q: Posso modificare la rarità o l'altezza di generazione?**  
-A: Attualmente no, ma potrebbe essere aggiunto in future versioni.
+**Q: Can I modify the rarity or generation height?**  
+A: Currently no, but it might be added in future versions.
 
-**Q: La mod funziona in multiplayer?**  
-A: Sì! Funziona sia in singleplayer che in multiplayer. Deve essere installata sul server.
+**Q: Does the mod work in multiplayer?**  
+A: Yes! It works in both singleplayer and multiplayer. It must be installed on the server.
 
-## 📝 Licenza
+## 📝 License
 
-Questa mod è rilasciata sotto licenza MIT. Sentiti libero di includerla nei tuoi modpack!
+This mod is released under the MIT license. Feel free to include it in your modpacks!
 
-## 🐛 Segnalazione Bug
+## 🐛 Bug Reports
 
-Se incontri problemi o bug, per favore segnalali con:
-- Versione della mod
-- Versione di Minecraft/Fabric/Cobblemon
-- Descrizione dettagliata del problema
-- Log di crash (se applicabile)
+If you encounter issues or bugs, please report them with:
+- Mod version
+- Minecraft/Fabric/Cobblemon version
+- Detailed description of the problem
+- Crash logs (if applicable)
 
 ---
 
-**Buon mining e buona fortuna con i tuoi Pokémon fossili!** 🦕⛏️
+**Happy mining and good luck with your fossil Pokémon!** 🦕⛏️
