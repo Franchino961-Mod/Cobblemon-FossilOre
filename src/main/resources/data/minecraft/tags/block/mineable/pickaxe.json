@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "cobblemon_fossil_ore:fossil_ore",
+    "cobblemon_fossil_ore:deepslate_fossil_ore"
+  ]
+}

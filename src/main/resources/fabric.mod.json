@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_fossil_ore",
+  "version": "${version}",
+  "name": "Cobblemon Fossil Ore",
+  "description": "Adds Fossil Ore blocks that drop random Cobblemon fossils when mined",
+  "authors": [
+    "Franchino961"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-fossil-ore",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/cobblemon_fossil_ore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cobblemon.fossilore.CobblemonFossilOre"
+    ],
+    "fabric-datagen": [
+      "com.cobblemon.fossilore.datagen.ModDataGenerator"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "cobblemon": ">=1.6.0"
+  },
+  "suggests": {}
+}
