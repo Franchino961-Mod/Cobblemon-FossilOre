@@ -35,3 +35,6 @@ bin/
 run/
 logs/
 *.log
+
+### Paint.NET ###
+*.pdn
