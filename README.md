@@ -3,7 +3,10 @@
 A Cobblemon addon mod that adds fossil ores to the Minecraft world, providing a new way to obtain the fossils needed to revive prehistoric Pokémon!
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
-[![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
+[![it](https://img.shields.io/badge/lang-it-green.svg)](MD/README.it.md)
+
+> 📝 **Version History**: See [MD/CHANGELOG.en.md](MD/CHANGELOG.en.md) for all updates and changes.
+> 📋 **TODO & Roadmap**: Check [MD/TODO.en.md](MD/TODO.en.md) for planned features.
 
 ## 📋 Description
 
@@ -109,7 +112,7 @@ A: Yes! It works in both singleplayer and multiplayer. It must be installed on t
 
 ## 📝 License
 
-This mod is released under the MIT license. Feel free to include it in your modpacks!
+This mod is released under the [MIT License](LICENSE). Feel free to include it in your modpacks!
 
 ## 🐛 Bug Reports
 
