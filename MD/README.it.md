@@ -2,8 +2,11 @@
 
 Una mod addon per Cobblemon che aggiunge minerali di fossili al mondo di Minecraft, offrendo un nuovo modo per ottenere i fossili necessari per riportare in vita i Pokémon preistorici!
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](../README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
+
+> 📝 **Cronologia Versioni**: Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per tutti gli aggiornamenti e modifiche.
+> 📋 **TODO & Roadmap**: Controlla [TODO.it.md](TODO.it.md) per le funzionalità pianificate.
 
 ## 📋 Descrizione
 
@@ -109,7 +112,7 @@ A: Sì! Funziona sia in singleplayer che in multiplayer. Deve essere installata 
 
 ## 📝 Licenza
 
-Questa mod è rilasciata sotto licenza MIT. Sentiti libero di includerla nei tuoi modpack!
+Questa mod è rilasciata sotto [licenza MIT](../LICENSE). Sentiti libero di includerla nei tuoi modpack!
 
 ## 🐛 Segnalazione Bug
 
