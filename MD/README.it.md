@@ -5,8 +5,9 @@ Una mod addon per Cobblemon che aggiunge minerali di fossili al mondo di Minecra
 [![en](https://img.shields.io/badge/lang-en-red.svg)](../README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
 
-> 📝 **Cronologia Versioni**: Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per tutti gli aggiornamenti e modifiche.
-> 📋 **TODO & Roadmap**: Controlla [TODO.it.md](TODO.it.md) per le funzionalità pianificate.
+> 📝 **Cronologia Versioni**: Vedi [CHANGELOG](CHANGELOG.it.md) per tutti gli aggiornamenti e modifiche.
+
+> 📋 **TODO & Roadmap**: Controlla [TODO](TODO.it.md) per le funzionalità pianificate.
 
 ## 📋 Descrizione
 
