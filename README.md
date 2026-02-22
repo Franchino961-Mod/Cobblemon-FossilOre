@@ -5,8 +5,9 @@ A Cobblemon addon mod that adds fossil ores to the Minecraft world, providing a 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](MD/README.it.md)
 
-> 📝 **Version History**: See [MD/CHANGELOG.en.md](MD/CHANGELOG.en.md) for all updates and changes.
-> 📋 **TODO & Roadmap**: Check [MD/TODO.en.md](MD/TODO.en.md) for planned features.
+> 📝 **Version History**: See [CHANGELOG](MD/CHANGELOG.en.md) for all updates and changes.
+
+> 📋 **TODO & Roadmap**: Check [TODO](MD/TODO.en.md) for planned features.
 
 ## 📋 Description
 
