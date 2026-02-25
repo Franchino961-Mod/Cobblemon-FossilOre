@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "cobblemon_fossil_ore:block/deepslate_fossil_ore"
-  }
-}
