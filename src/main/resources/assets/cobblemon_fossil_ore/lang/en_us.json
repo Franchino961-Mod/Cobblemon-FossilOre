@@ -1,4 +1,5 @@
 {
-  "block.cobblemon_fossil_ore.fossil_ore": "Fossil Ore",
-  "block.cobblemon_fossil_ore.deepslate_fossil_ore": "Deepslate Fossil Ore"
+  "block.cobblemon_fossil_ore.marine_fossil_ore": "Marine Fossil Ore",
+  "block.cobblemon_fossil_ore.terrestrial_fossil_ore": "Terrestrial Fossil Ore",
+  "block.cobblemon_fossil_ore.ancient_fossil_ore": "Ancient Fossil Ore"
 }
