@@ -26,12 +26,14 @@ public class ModDataGenerator implements DataGeneratorEntrypoint {
         @Override
         protected void configure(RegistryWrapper.WrapperLookup lookup) {
             getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.FOSSIL_ORE)
-                .add(ModBlocks.DEEPSLATE_FOSSIL_ORE);
+                .add(ModBlocks.MARINE_FOSSIL_ORE)
+                .add(ModBlocks.TERRESTRIAL_FOSSIL_ORE)
+                .add(ModBlocks.ANCIENT_FOSSIL_ORE);
 
             getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.FOSSIL_ORE)
-                .add(ModBlocks.DEEPSLATE_FOSSIL_ORE);
+                .add(ModBlocks.MARINE_FOSSIL_ORE)
+                .add(ModBlocks.TERRESTRIAL_FOSSIL_ORE)
+                .add(ModBlocks.ANCIENT_FOSSIL_ORE);
         }
     }
 }
