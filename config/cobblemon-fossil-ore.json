@@ -1,0 +1,64 @@
+{
+  "worldGeneration": {
+    "marineOre": {
+      "veinSize": 4,
+      "minY": -64,
+      "maxY": 45,
+      "enabled": true,
+      "distribution": "uniform"
+    },
+    "terrestrialOre": {
+      "veinSize": 4,
+      "minY": 8,
+      "maxY": 64,
+      "enabled": true,
+      "distribution": "trapezoid_36"
+    },
+    "ancientOre": {
+      "veinSize": 4,
+      "minY": 8,
+      "maxY": 64,
+      "enabled": true,
+      "distribution": "trapezoid_36"
+    }
+  },
+  "dropRates": {
+    "customDropRates": false,
+    "marineFossils": {
+      "dome_fossil": 0.2,
+      "helix_fossil": 0.2,
+      "cover_fossil": 0.2,
+      "root_fossil": 0.2,
+      "fossilized_fish": 0.2
+    },
+    "terrestrialFossils": {
+      "skull_fossil": 0.2,
+      "armor_fossil": 0.2,
+      "jaw_fossil": 0.2,
+      "claw_fossil": 0.2,
+      "fossilized_dino": 0.2
+    },
+    "ancientFossils": {
+      "old_amber": 0.2,
+      "plume_fossil": 0.2,
+      "fossilized_bird": 0.2,
+      "sail_fossil": 0.2,
+      "fossilized_drake": 0.2
+    }
+  },
+  "fortune": {
+    "fortuneIChance": 0.33,
+    "fortuneIIChance": 0.66,
+    "fortuneIIIChance": 0.99,
+    "maxFossilsPerBlock": 2
+  },
+  "biomes": {
+    "useCustomBiomeFilters": false,
+    "marineOreWhitelist": [],
+    "terrestrialOreWhitelist": [],
+    "ancientOreWhitelist": [],
+    "marineOreBlacklist": [],
+    "terrestrialOreBlacklist": [],
+    "ancientOreBlacklist": []
+  }
+}
