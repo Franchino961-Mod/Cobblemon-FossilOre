@@ -1,4 +1,5 @@
 {
-  "block.cobblemon_fossil_ore.fossil_ore": "Minerale Fossile",
-  "block.cobblemon_fossil_ore.deepslate_fossil_ore": "Minerale Fossile di Ardesia Profonda"
+  "block.cobblemon_fossil_ore.marine_fossil_ore": "Minerale Fossile Marino",
+  "block.cobblemon_fossil_ore.terrestrial_fossil_ore": "Minerale Fossile Terrestre",
+  "block.cobblemon_fossil_ore.ancient_fossil_ore": "Minerale Fossile Antico"
 }
