@@ -3,7 +3,7 @@
   "id": "cobblemon_fossil_ore",
   "version": "${version}",
   "name": "Cobblemon Fossil Ore",
-  "description": "Adds Fossil Ore blocks that drop random Cobblemon fossils when mined",
+  "description": "Adds 3 thematic Fossil Ore blocks (Marine, Terrestrial, Ancient) that drop specific Cobblemon fossils based on biome and theme",
   "authors": [
     "Franchino961"
   ],
@@ -30,5 +30,8 @@
     "java": ">=21",
     "cobblemon": ">=1.6.0"
   },
-  "suggests": {}
+  "suggests": {
+    "rei": "*",
+    "jei": "*"
+  }
 }
