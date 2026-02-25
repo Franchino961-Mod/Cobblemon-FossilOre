@@ -12,17 +12,24 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block FOSSIL_ORE = registerBlock("fossil_ore",
-            new FossilOreBlock(AbstractBlock.Settings.create()
+    // New thematic ore blocks
+    public static final Block MARINE_FOSSIL_ORE = registerBlock("marine_fossil_ore",
+            new MarineFossilOreBlock(AbstractBlock.Settings.create()
                     .strength(3.0f, 3.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 
-    public static final Block DEEPSLATE_FOSSIL_ORE = registerBlock("deepslate_fossil_ore",
-            new FossilOreBlock(AbstractBlock.Settings.create()
-                    .strength(4.5f, 3.0f)
+    public static final Block TERRESTRIAL_FOSSIL_ORE = registerBlock("terrestrial_fossil_ore",
+            new TerrestrialFossilOreBlock(AbstractBlock.Settings.create()
+                    .strength(3.0f, 3.0f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.DEEPSLATE)));
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANCIENT_FOSSIL_ORE = registerBlock("ancient_fossil_ore",
+            new AncientFossilOreBlock(AbstractBlock.Settings.create()
+                    .strength(3.0f, 3.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -38,8 +45,9 @@ public class ModBlocks {
         CobblemonFossilOre.LOGGER.info("Registering blocks for " + CobblemonFossilOre.MOD_ID);
         
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
-            entries.add(FOSSIL_ORE);
-            entries.add(DEEPSLATE_FOSSIL_ORE);
+            entries.add(MARINE_FOSSIL_ORE);
+            entries.add(TERRESTRIAL_FOSSIL_ORE);
+            entries.add(ANCIENT_FOSSIL_ORE);
         });
     }
 }
