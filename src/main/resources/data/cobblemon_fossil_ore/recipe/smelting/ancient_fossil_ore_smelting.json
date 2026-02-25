@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "group": "ancient_fossil",
+  "ingredient": {
+    "item": "cobblemon_fossil_ore:ancient_fossil_ore"
+  },
+  "result": {
+    "id": "cobblemon:old_amber_fossil"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}
