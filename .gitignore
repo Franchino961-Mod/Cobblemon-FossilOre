@@ -36,5 +36,7 @@ run/
 logs/
 *.log
 
-### Paint.NET ###
+### Private File ###
+IMPLEMENTATION_PLAN.md
+TESTING_STATUS.md
 *.pdn
