@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "group": "marine_fossil",
+  "ingredient": {
+    "item": "cobblemon_fossil_ore:marine_fossil_ore"
+  },
+  "result": {
+    "id": "cobblemon:dome_fossil"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}
