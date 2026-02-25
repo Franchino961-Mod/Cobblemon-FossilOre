@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "cobblemon_fossil_ore:fossil_ore",
-    "cobblemon_fossil_ore:deepslate_fossil_ore"
+    "cobblemon_fossil_ore:marine_fossil_ore",
+    "cobblemon_fossil_ore:terrestrial_fossil_ore",
+    "cobblemon_fossil_ore:ancient_fossil_ore"
   ]
 }
