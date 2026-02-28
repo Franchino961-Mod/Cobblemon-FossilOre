@@ -1,13 +1,11 @@
-# TODO - Cobblemon Fossil Ore
-
-**Versione Attuale:** v2.2.2  
-**Ultimo Aggiornamento:** 25 Febbraio 2026
-
-Elenco delle funzionalità pianificate e miglioramenti, organizzati per priorità e categoria.
+# TODO List - Cobblemon Fossil Ore
+**Versione**: v2.2.2  
+**Ultimo Aggiornamento**: 25 Febbraio 2026  
+**Stato**: ✅ RILASCIATO
 
 ---
 
-## 📊 Status Rapido
+## 🎯 Stato Rapido
 
 - ✅ **Sistema Base** (3 ore tematici) - v2.0.0
 - ✅ **Sistema Fusione** - v2.1.0
@@ -20,7 +18,7 @@ Elenco delle funzionalità pianificate e miglioramenti, organizzati per priorit�
 
 ---
 
-## 🎮 Meccaniche di Gioco / Crafting
+## 📊 Task e Meccaniche di Gioco
 
 ### Smelting/Fusione ✅ COMPLETATO (v2.1.0)
 - [x] **Possibilità di smeltare i Fossil Ore nella fornace normale**
