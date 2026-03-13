@@ -1,4 +1,4 @@
-# Changelog
+# Changelog - Cobblemon Fossil Ore
 
 Tutte le modifiche importanti a questo progetto verranno documentate in questo file.
 
@@ -7,7 +7,7 @@ e questo progetto segue il [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ---
 
-## [Unreleased]
+## [Non Rilasciato]
 
 ### Pianificato
 - Texture animate e particelle visive
