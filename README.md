@@ -1,13 +1,19 @@
-# Cobblemon Fossil Ore
+# ⛰️ Cobblemon Fossil Ore
 
 A Cobblemon addon mod that adds fossil ores to the Minecraft world, providing a new way to obtain the fossils needed to revive prehistoric Pokémon!
+
+[![Download on CurseForge](https://img.shields.io/badge/Download_on-CurseForge-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/cobblemon-fossil-ore)
+
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://www.minecraft.net/)
+[![Version](https://img.shields.io/badge/version-2.2.2-blue.svg)]()
+[![Fabric](https://img.shields.io/badge/Fabric-0.16.9-blue.svg)](https://fabricmc.net/)
+[![Cobblemon](https://img.shields.io/badge/Cobblemon-1.6.0+-red.svg)](https://cobblemon.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](MD/README.it.md)
 
-> 📝 **Version History**: See [CHANGELOG](MD/CHANGELOG.en.md) for all updates and changes.
-
-> 📋 **TODO & Roadmap**: Check [TODO](MD/TODO.en.md) for planned features.
+> 📝 **Changelog**: See [CHANGELOG.en.md](MD/CHANGELOG.en.md) for version history.
 
 ## 📋 Description
 
@@ -19,7 +25,7 @@ This mod adds three thematic ore blocks to the Overworld, each containing fossil
 
 When mined, each ore drops one of 5 specific fossils matching its theme, offering a strategic way to obtain the fossils you need by exploring specific biomes!
 
-## ⚙️ Requirements
+## 📦 Requirements
 
 - **Minecraft**: 1.21.1
 - **Fabric Loader**: 0.16.9 or higher
@@ -274,17 +280,38 @@ A: Yes! In v2.2.0+, you can customize ore generation, Fortune chances, drop rate
 **Q: Does the mod work in multiplayer?**  
 A: Yes! It works in both singleplayer and multiplayer. It must be installed on the server.
 
-## 📝 License
+## 📄 License
 
-This mod is released under the [MIT License](LICENSE). Feel free to include it in your modpacks!
+This mod is licensed under the [MIT License](LICENSE). Feel free to include it in your modpacks!
 
-## 🐛 Bug Reports
+## 👤 Author
+
+**Franchino961** — [GitHub](https://github.com/Franchino961-Mod)
+
+## 🤝 Contributing
+
+Contributions are welcome!
+- Open an [Issue](../../issues) to report bugs or suggest features
+- Open a [Pull Request](../../pulls) to contribute code
+
+## 💬 Support
 
 If you encounter issues or bugs, please report them with:
 - Mod version
-- Minecraft/Fabric/Cobblemon version
+- Minecraft / Fabric / Cobblemon versions
 - Detailed description of the problem
 - Crash logs (if applicable)
+- [Open an Issue](../../issues)
+
+## 🔗 Links
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon-fossil-ore)
+- [Cobblemon Mod](https://cobblemon.com)
+- [Fabric](https://fabricmc.net/)
+
+## 📝 Changelog
+
+See [CHANGELOG.en.md](MD/CHANGELOG.en.md) for full version history.
 
 ---
 
