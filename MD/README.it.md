@@ -1,13 +1,19 @@
-# Cobblemon Fossil Ore
+# ⛰️ Cobblemon Fossil Ore
 
 Una mod addon per Cobblemon che aggiunge minerali di fossili al mondo di Minecraft, offrendo un nuovo modo per ottenere i fossili necessari per riportare in vita i Pokémon preistorici!
+
+[![Download on CurseForge](https://img.shields.io/badge/Download_on-CurseForge-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/cobblemon-fossil-ore)
+
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://www.minecraft.net/)
+[![Versione](https://img.shields.io/badge/versione-2.2.2-blue.svg)]()
+[![Fabric](https://img.shields.io/badge/Fabric-0.16.9-blue.svg)](https://fabricmc.net/)
+[![Cobblemon](https://img.shields.io/badge/Cobblemon-1.6.0+-red.svg)](https://cobblemon.com)
+[![Licenza](https://img.shields.io/badge/Licenza-MIT-yellow.svg)](../LICENSE)
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](../README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
 
-> 📝 **Cronologia Versioni**: Vedi [CHANGELOG](CHANGELOG.it.md) per tutti gli aggiornamenti e modifiche.
-
-> 📋 **TODO & Roadmap**: Controlla [TODO](TODO.it.md) per le funzionalità pianificate.
+> 📝 **Changelog**: Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia delle versioni.
 
 ## 📋 Descrizione
 
@@ -19,7 +25,7 @@ Questa mod aggiunge tre blocchi minerali tematici all'Overworld, ognuno contenen
 
 Quando minati, ogni minerale droppa uno di 5 fossili specifici che corrispondono al suo tema, offrendo un modo strategico per ottenere i fossili di cui hai bisogno esplorando biomi specifici!
 
-## ⚙️ Requisiti
+## 📦 Requisiti
 
 - **Minecraft**: 1.21.1
 - **Fabric Loader**: 0.16.9 o superiore
@@ -227,22 +233,6 @@ Sovrascrivi lo spawning predefinito dei biomi:
 ```
 **Requisiti**: Permesso OP livello 2 (solo operatori server)
 
-## 🏆 Obiettivi (Advancement)
-
-**Novità nella v2.2.1!** La mod include obiettivi per tracciare i tuoi progressi nella caccia ai fossili:
-
-### Paleontologo
-- **Descrizione**: Trova il tuo primo Minerale Fossile
-- **Ricompensa**: 50 Punti Esperienza
-- **Come ottenerlo**: Mina o raccogli qualsiasi blocco Fossil Ore (Marino, Terrestre o Antico)
-
-### Cacciatore di Fossili 🏆
-- **Descrizione**: Raccogli tutti i 15 tipi di fossili
-- **Tipo**: Obiettivo sfida
-- **Ricompensa**: 500 Punti Esperienza
-- **Come ottenerlo**: Raccogli almeno uno di ciascuno dei 15 diversi fossili di Cobblemon
-- **Consiglio**: Usa l'incantesimo Fortune III e esplora biomi specifici per raccogliere tutti i fossili più velocemente!
-
 ## 💻 Comandi
 
 **Novità nella v2.2.1!** Comandi admin per la gestione del server:
@@ -290,17 +280,38 @@ A: Sì! Dalla v2.2.0+, puoi personalizzare la generazione dei minerali, le proba
 **Q: La mod funziona in multiplayer?**  
 A: Sì! Funziona sia in singleplayer che in multiplayer. Deve essere installata sul server.
 
-## 📝 Licenza
+## 📄 Licenza
 
-Questa mod è rilasciata sotto [licenza MIT](../LICENSE). Sentiti libero di includerla nei tuoi modpack!
+Questa mod è rilasciata sotto la [Licenza MIT](../LICENSE). Sentiti libero di includerla nei tuoi modpack!
 
-## 🐛 Segnalazione Bug
+## 👤 Autore
 
-Se incontri problemi o bug, per favore segnalali con:
+**Franchino961** — [GitHub](https://github.com/Franchino961-Mod)
+
+## 🤝 Contributi
+
+Contributi benvenuti!
+- Apri una [Issue](../../issues) per segnalare bug o suggerire funzionalità
+- Apri una [Pull Request](../../pulls) per contribuire al codice
+
+## 💬 Supporto
+
+Se riscontri problemi o bug, segnalali includendo:
 - Versione della mod
-- Versione di Minecraft/Fabric/Cobblemon
+- Versioni di Minecraft / Fabric / Cobblemon
 - Descrizione dettagliata del problema
-- Log di crash (se applicabile)
+- Log di crash (se applicabili)
+- [Apri una Issue](../../issues)
+
+## 🔗 Link
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon-fossil-ore)
+- [Mod Cobblemon](https://cobblemon.com)
+- [Fabric](https://fabricmc.net/)
+
+## 📝 Changelog
+
+Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia completa delle versioni.
 
 ---
 
