@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "group": "terrestrial_fossil",
   "ingredient": {
-    "item": "cobblemon_fossil_ore:terrestrial_fossil_ore"
+    "item": "fossil_ore:terrestrial_fossil_ore"
   },
   "result": {
     "id": "cobblemon:skull_fossil"
