@@ -1,6 +1,6 @@
-package com.cobblemon.fossilore.command;
+package com.fossilore.command;
 
-import com.cobblemon.fossilore.config.ModConfig;
+import com.fossilore.config.ModConfig;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
@@ -23,7 +23,7 @@ public class ReloadCommand {
                         
                         // Send confirmation message
                         context.getSource().sendFeedback(
-                            () -> Text.literal("§a[Cobblemon Fossil Ore] Configuration reloaded successfully!"),
+                            () -> Text.literal("§a[Fossil Ore] Configuration reloaded successfully!"),
                             true // Broadcast to all ops
                         );
                         
