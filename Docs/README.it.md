@@ -5,7 +5,7 @@ Una mod addon per Cobblemon che aggiunge minerali di fossili al mondo di Minecra
 [![Download on CurseForge](https://img.shields.io/badge/Download_on-CurseForge-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/cobblemon-fossil-ore)
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://www.minecraft.net/)
-[![Versione](https://img.shields.io/badge/versione-2.2.2-blue.svg)]()
+[![Versione](https://img.shields.io/badge/versione-2.3.0-blue.svg)]()
 [![Fabric](https://img.shields.io/badge/Fabric-0.16.9-blue.svg)](https://fabricmc.net/)
 [![Cobblemon](https://img.shields.io/badge/Cobblemon-1.6.0+-red.svg)](https://cobblemon.com)
 [![Licenza](https://img.shields.io/badge/Licenza-MIT-yellow.svg)](../LICENSE)
@@ -168,7 +168,7 @@ Una volta ottenuti, puoi usare i fossili esattamente come nella Cobblemon standa
 ### Posizione File Config
 Dopo il primo avvio, verrà creato un file di configurazione in:
 ```
-config/cobblemon-fossil-ore.json
+config/fossil-ore.json
 ```
 
 ### Impostazioni Configurabili
@@ -275,7 +275,7 @@ A: Sì, ma solo in chunk che non sono ancora stati generati. Dovrai esplorare nu
 A: Sì, la mod dovrebbe essere compatibile con altre mod Fabric, purché non modifichino pesantemente il sistema di generazione del mondo.
 
 **Q: Posso modificare la rarità o l'altezza di generazione?**  
-A: Sì! Dalla v2.2.0+, puoi personalizzare la generazione dei minerali, le probabilità Fortune, i drop rate e altro tramite il file di configurazione in `config/cobblemon-fossil-ore.json`. Vedi la sezione Configurazione sopra per i dettagli.
+A: Sì! Dalla v2.2.0+, puoi personalizzare la generazione dei minerali, le probabilità Fortune, i drop rate e altro tramite il file di configurazione in `config/fossil-ore.json`. Vedi la sezione Configurazione sopra per i dettagli.
 
 **Q: La mod funziona in multiplayer?**  
 A: Sì! Funziona sia in singleplayer che in multiplayer. Deve essere installata sul server.
