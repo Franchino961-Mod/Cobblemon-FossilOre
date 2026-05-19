@@ -1,4 +1,4 @@
-package com.cobblemon.fossilore;
+package com.fossilore;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
@@ -33,16 +33,16 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(CobblemonFossilOre.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(FossilOre.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(CobblemonFossilOre.MOD_ID, name),
+        Registry.register(Registries.ITEM, Identifier.of(FossilOre.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 
     public static void register() {
-        CobblemonFossilOre.LOGGER.info("Registering blocks for " + CobblemonFossilOre.MOD_ID);
+        FossilOre.LOGGER.info("Registering blocks for " + FossilOre.MOD_ID);
         
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(MARINE_FOSSIL_ORE);
