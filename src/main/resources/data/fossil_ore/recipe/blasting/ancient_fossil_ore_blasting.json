@@ -2,10 +2,10 @@
   "type": "minecraft:blasting",
   "group": "ancient_fossil",
   "ingredient": {
-    "item": "cobblemon_fossil_ore:ancient_fossil_ore"
+    "item": "fossil_ore:ancient_fossil_ore"
   },
   "result": {
-    "id": "cobblemon:old_amber_fossil"
+    "id": "cobblemon:old_amber"
   },
   "experience": 0.7,
   "cookingtime": 100
