@@ -1,20 +1,20 @@
-package com.cobblemon.fossilore;
+package com.fossilore;
 
-import com.cobblemon.fossilore.command.ReloadCommand;
-import com.cobblemon.fossilore.config.ModConfig;
-import com.cobblemon.fossilore.world.ModOreGeneration;
+import com.fossilore.command.ReloadCommand;
+import com.fossilore.config.ModConfig;
+import com.fossilore.world.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CobblemonFossilOre implements ModInitializer {
-    public static final String MOD_ID = "cobblemon_fossil_ore";
+public class FossilOre implements ModInitializer {
+    public static final String MOD_ID = "fossil_ore";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Initializing Cobblemon Fossil Ore");
+        LOGGER.info("Initializing Fossil Ore");
         
         // Load configuration first
         ModConfig.load();
@@ -30,6 +30,6 @@ public class CobblemonFossilOre implements ModInitializer {
         });
         LOGGER.info("Commands registered successfully");
         
-        LOGGER.info("Cobblemon Fossil Ore initialized successfully!");
+        LOGGER.info("Fossil Ore initialized successfully!");
     }
 }
