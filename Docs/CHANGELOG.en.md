@@ -16,6 +16,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.3.0] - 2026-05-19
+
+### 🔥 BREAKING CHANGES
+- **Mod Rebranding & ID Change**: Renamed the mod ID from `cobblemon_fossil_ore` to `fossil_ore` and the mod name to `Fossil Ore`.
+  - **Migration Note**: Existing worlds containing blocks from the old mod namespace `cobblemon_fossil_ore` will see them disappear or turn into missing blocks. You must replace them with the new blocks under the `fossil_ore` namespace.
+  - Changed configuration file from `config/cobblemon-fossil-ore.json` to `config/fossil-ore.json`.
+
+### Changed
+- **Directory & Package Restructuring**:
+  - Moved Java packages from `com.cobblemon.fossilore` to `com.fossilore`.
+  - Renamed the main entrypoint class from `CobblemonFossilOre` to `FossilOre`.
+  - Renamed resources namespaces from `cobblemon_fossil_ore` to `fossil_ore`.
+  - Updated all translation keys to use `block.fossil_ore.*` and `itemGroup.fossil_ore.*`.
+- **Ignore Local Configurations**:
+  - Added the `config/` directory to `.gitignore` to prevent tracking of local testing configurations.
+  - Removed existing config files from version control tracking.
+
+### Technical
+- Updated dependencies group and archive names in `gradle.properties` and `settings.gradle`.
+- Updated all JSON resource files (recipes, blockstates, models, configured features, placed features, block tags) to reference the new namespace `fossil_ore`.
+- Retained external references to the `cobblemon` namespace (e.g. dropped items and recipes) to keep compatibility.
+
+---
+
 ## [2.2.2] - 2026-02-25
 
 ### Changed
