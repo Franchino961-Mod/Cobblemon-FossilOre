@@ -1,6 +1,6 @@
-package com.cobblemon.fossilore.datagen;
+package com.fossilore.datagen;
 
-import com.cobblemon.fossilore.ModBlocks;
+import com.fossilore.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
