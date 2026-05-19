@@ -5,7 +5,7 @@ A Cobblemon addon mod that adds fossil ores to the Minecraft world, providing a 
 [![Download on CurseForge](https://img.shields.io/badge/Download_on-CurseForge-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/cobblemon-fossil-ore)
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://www.minecraft.net/)
-[![Version](https://img.shields.io/badge/version-2.2.2-blue.svg)]()
+[![Version](https://img.shields.io/badge/version-2.3.0-blue.svg)]()
 [![Fabric](https://img.shields.io/badge/Fabric-0.16.9-blue.svg)](https://fabricmc.net/)
 [![Cobblemon](https://img.shields.io/badge/Cobblemon-1.6.0+-red.svg)](https://cobblemon.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -168,7 +168,7 @@ Once obtained, you can use the fossils exactly as in standard Cobblemon to reviv
 ### Config File Location
 After first launch, a config file will be created at:
 ```
-config/cobblemon-fossil-ore.json
+config/fossil-ore.json
 ```
 
 ### Configurable Settings
@@ -275,7 +275,7 @@ A: Yes, but only in chunks that haven't been generated yet. You'll need to explo
 A: Yes, the mod should be compatible with other Fabric mods, as long as they don't heavily modify the world generation system.
 
 **Q: Can I modify the rarity or generation height?**  
-A: Yes! In v2.2.0+, you can customize ore generation, Fortune chances, drop rates, and more via the config file at `config/cobblemon-fossil-ore.json`. See the Configuration section above for details.
+A: Yes! In v2.2.0+, you can customize ore generation, Fortune chances, drop rates, and more via the config file at `config/fossil-ore.json`. See the Configuration section above for details.
 
 **Q: Does the mod work in multiplayer?**  
 A: Yes! It works in both singleplayer and multiplayer. It must be installed on the server.
