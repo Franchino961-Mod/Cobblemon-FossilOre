@@ -24,6 +24,7 @@ bin/
 # Minecraft test environment / Fabric
 run/
 .fabric/
+config/
 logs/
 crash-reports/
 *.log
