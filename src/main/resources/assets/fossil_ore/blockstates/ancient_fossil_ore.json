@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fossil_ore:block/ancient_fossil_ore"
+    }
+  }
+}
