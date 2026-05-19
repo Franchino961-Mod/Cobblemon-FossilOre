@@ -16,6 +16,30 @@ e questo progetto segue il [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ---
 
+## [2.3.0] - 2026-05-19
+
+### 🔥 MODIFICHE INCOMPATIBILI
+- **Rebranding della Mod e Modifica ID**: Rinominato l'ID della mod da `cobblemon_fossil_ore` a `fossil_ore` e il nome in `Fossil Ore`.
+  - **Nota di Migrazione**: I blocchi nei mondi esistenti generati con il vecchio namespace `cobblemon_fossil_ore` spariranno o risulteranno mancanti. Dovranno essere rimpiazzati con i blocchi sotto il nuovo namespace `fossil_ore`.
+  - Cambiato il file di configurazione da `config/cobblemon-fossil-ore.json` a `config/fossil-ore.json`.
+
+### Modificato
+- **Ristrutturazione Directory e Pacchetti**:
+  - Spostati i pacchetti Java da `com.cobblemon.fossilore` a `com.fossilore`.
+  - Rinominata la classe principale del punto di ingresso da `CobblemonFossilOre` a `FossilOre`.
+  - Rinominate le cartelle dei namespace delle risorse da `cobblemon_fossil_ore` a `fossil_ore`.
+  - Aggiornate tutte le chiavi di traduzione per usare `block.fossil_ore.*` e `itemGroup.fossil_ore.*`.
+- **Esclusione Configurazione Locale**:
+  - Aggiunta la cartella `config/` al file `.gitignore` per evitare di tracciare le modifiche personali alle configurazioni.
+  - Rimosso il file di configurazione esistente dal controllo versione di Git.
+
+### Tecnico
+- Aggiornati i nomi di gruppo e archivio in `gradle.properties` e `settings.gradle`.
+- Aggiornati tutti i file di risorse JSON (ricette, tag di Minecraft, modelli, blockstate, configured e placed feature) per fare riferimento al nuovo namespace `fossil_ore`.
+- Mantenuti intatti i riferimenti esterni al namespace `cobblemon` (es. i fossili droppati e i risultati delle ricette) per preservare la compatibilità.
+
+---
+
 ## [2.2.2] - 2026-02-25
 
 ### Modificato
