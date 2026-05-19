@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "cobblemon_fossil_ore",
+  "id": "fossil_ore",
   "version": "${version}",
-  "name": "Cobblemon Fossil Ore",
+  "name": "Fossil Ore",
   "description": "Adds 3 thematic Fossil Ore blocks (Marine, Terrestrial, Ancient) that drop specific Cobblemon fossils based on biome and theme",
   "authors": [
     "Franchino961"
@@ -12,14 +12,14 @@
     "sources": "https://github.com/Franchino961-Mod/Cobblemon-FossilOre"
   },
   "license": "MIT",
-  "icon": "assets/cobblemon_fossil_ore/icon.png",
+  "icon": "assets/fossil_ore/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.cobblemon.fossilore.CobblemonFossilOre"
+      "com.fossilore.FossilOre"
     ],
     "fabric-datagen": [
-      "com.cobblemon.fossilore.datagen.ModDataGenerator"
+      "com.fossilore.datagen.ModDataGenerator"
     ]
   },
   "mixins": [],
