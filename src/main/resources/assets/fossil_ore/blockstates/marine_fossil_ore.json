@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fossil_ore:block/marine_fossil_ore"
+    }
+  }
+}
