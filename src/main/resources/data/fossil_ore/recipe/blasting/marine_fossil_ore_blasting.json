@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "group": "marine_fossil",
   "ingredient": {
-    "item": "cobblemon_fossil_ore:marine_fossil_ore"
+    "item": "fossil_ore:marine_fossil_ore"
   },
   "result": {
     "id": "cobblemon:dome_fossil"
