@@ -10,7 +10,7 @@
           "tag": "minecraft:stone_ore_replaceables"
         },
         "state": {
-          "Name": "cobblemon_fossil_ore:ancient_fossil_ore"
+          "Name": "fossil_ore:ancient_fossil_ore"
         }
       }
     ]
