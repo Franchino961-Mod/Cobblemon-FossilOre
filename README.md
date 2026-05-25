@@ -1,3 +1,5 @@
+![Cobblemon: Fossil Ore - Banner](https://raw.githubusercontent.com/Franchino961-Mod/Cobblemon-Fossil-Ore/main/Docs/assets/image/Cobblemon%20Fossil%20Ore.png)
+
 # ⛰️ Cobblemon Fossil Ore
 
 A Cobblemon addon mod that adds fossil ores to the Minecraft world, providing a new way to obtain the fossils needed to revive prehistoric Pokémon!
