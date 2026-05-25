@@ -1,4 +1,4 @@
-![Cobblemon: Fossil Ore - Banner](https://raw.githubusercontent.com/Franchino961-Mod/Cobblemon-Fossil-Ore/main/Docs/assets/image/Cobblemon%20Fossil%20Ore.png)
+![Cobblemon: Fossil Ore - Banner](https://raw.githubusercontent.com/Franchino961-Mod/Cobblemon-FossilOre/main/Docs/assets/image/Cobblemon%20-%20Fossil%20Ore.png)
 
 # ⛰️ Cobblemon Fossil Ore
 
