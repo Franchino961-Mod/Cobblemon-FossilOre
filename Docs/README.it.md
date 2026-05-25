@@ -1,3 +1,5 @@
+![Cobblemon: Fossil Ore - Banner](https://raw.githubusercontent.com/Franchino961-Mod/Cobblemon-Fossil-Ore/main/Docs/assets/image/Cobblemon%20Fossil%20Ore.png)
+
 # ⛰️ Cobblemon Fossil Ore
 
 Una mod addon per Cobblemon che aggiunge minerali di fossili al mondo di Minecraft, offrendo un nuovo modo per ottenere i fossili necessari per riportare in vita i Pokémon preistorici!
